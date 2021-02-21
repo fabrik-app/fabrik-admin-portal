@@ -1,0 +1,36 @@
+@media only screen and (max-width : 576px)
+{
+  .mobile-container > .row {
+    overflow-x: auto;
+  }
+
+  .mobile-container > .row > .colflex {
+    flex: 0 0 100%;
+  }
+}
+
+.mobile-card-container {
+  display: block;
+}
+
+.card-text{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.media-card-image {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
+}
+
+.card {
+  background: #fff;
+}

@@ -1,0 +1,11 @@
+/* import only the necessary Bootstrap files */
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import './core/buttons';
+@import './core/cards';
+@import './core/opacity';
+@import './core/lists';
+
+$theme-colors: ( "primary": #3f51b5);
+
+@import "node_modules/bootstrap/scss/bootstrap";

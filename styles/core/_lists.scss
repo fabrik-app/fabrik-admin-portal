@@ -1,0 +1,17 @@
+.item-list{
+    list-style-type: none;
+    padding: 0;
+}
+  
+.item-list li{
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.item-list li a{
+    display: block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic&display=swap");
+
+@import './fabrik/colors';
+@import './fabrik/typography';
+@import './fabrik/cards';
+@import './fabrik/forms';
+@import './fabrik/media.scss';
+@import './fabrik/homepage.scss';
+@import './nprogress.css';
+@import './ReactToastify.min.css';
+@import './react-datepicker.min.css';
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover span{
+  text-decoration: none;
+}
+
+.page-block{
+  margin-bottom: 25px;
+}
+
+.store-gallery-button{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.designer-image{
+  margin: 0px 0px 0px 0px;
+}
+
+.rating-text{
+  vertical-align: top;
+  padding-left: 5px;
+}

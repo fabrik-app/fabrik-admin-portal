@@ -1,0 +1,23 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+// https://material.io/design/typography/the-type-system.html#type-scale
+/* Follows H2 Material Style */
+.page-title{
+    font-size: 48px;
+    font-weight: lighter;
+    color:$primary-color;
+    letter-spacing: -0.5px;
+    margin-top: 20px;
+}
+  
+/* Follows H4 Material Style */
+.page-subtitle{
+    font-size: 34px;
+    font-weight: normal;
+    color:grey;
+    letter-spacing: 0.25px;
+    margin: 20px 0px 20px 0px;
+}
